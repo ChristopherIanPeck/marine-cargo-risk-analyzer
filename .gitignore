@@ -1,0 +1,14 @@
+# --- Python bytecode and cache ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Virtual environment ---
+.venv/
+
+# --- SQLite databases and processed data ---
+data/processed/
+*.db
+
+# --- Environment variables (if used later) ---
+.env
