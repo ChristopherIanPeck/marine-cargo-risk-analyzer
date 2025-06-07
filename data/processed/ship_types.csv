@@ -1,0 +1,161 @@
+FartøyType,count
+6D: Fiske,7843
+5C: Bil,3052
+4B. Vanlig stykkgods,2816
+5B: Passasjer/Cruise,2311
+1B: Olje,2072
+7D: Offshoreskip,1684
+3B: Vanlig bulk,1636
+5C1: Bilferge,1611
+6F: Hekk-/Fabrikktråler,1580
+1C: LPG,1439
+1D: Kjemikalier,1394
+5F: Komb. passasjer/stykkgods,1332
+4E: Roll-on/Roll-off,773
+6E: Tråler,716
+Ikke angitt,699
+3H: Brønnfartøy,650
+8K: Mindre arbeidsbåt,623
+7D1: Forsyningsskip,598
+5C2: Ro/Ro-passasjerferge,516
+5B1: Passasjerskip,508
+7C: Forskning/Værvarsling/Oppsyn/Seismisk,400
+4D: Palle,393
+2D: Tank/Bulk/Malm (OBO),386
+6A: Fiske/fangstfartøy --> ubestemt,375
+4I: Spesialbygd bilskip,357
+5I4: Katamaran:  Passasjer,316
+4C: Fryse- og kjøle,313
+7A: Slepe/Berging,305
+2H: Kjemikalie/Olje,293
+4F: Container,289
+5I: Katamaran/Trimaran/Hydrofoil,264
+9G: Flyttbare innretninger,262
+5K: Andre små passasjer/ferge/lege/skyss,206
+9C4: Åpen motorbåt m/utenbordsmotor,185
+7K: Andre spesial/Sandblåser/Dykker,168
+7F: Los/Redning/Sjøbrannsprøyte,157
+7D2: Hjelpeskip/Beredskapsfartøy,138
+7A1: Slepebåt,136
+5I5: Katamaran:  Komb. passasjer/stykkgods,126
+2B: Tank/Malm (O/O),119
+3A: Bulkskip --> ubestemt,117
+4A: Stykkgodsskip --> ubestemt,107
+0C: LNG,105
+0G: Flytende kjemisk/gass,103
+6B: Fabrikk/Hvalkokeri,99
+7E: Fyr og forsyning,95
+9G1: Boreinnretning inkl. boreskip,86
+3E: Malm,83
+8I: Oljevern,82
+7C3: Forskningsfartøy,82
+5B2: Cruiseskip,77
+7C1: Seismisk,68
+5I1: Katamaran,68
+9C: Fritidsfartøy,66
+6C2: Hvalfanger,65
+4F2: Semicontainerskip,62
+2A: Stykkgods/Bulk/Container,61
+7D3: Konstruksjonsskip,60
+9C7: Lukket motorbåt,59
+6I: Fiske/fangstfartøy --> ubestemt,58
+4F1: Containerskip,56
+3G: Sand,55
+8B: Kabel,54
+9C11: Seilbåt/Seilfartøy,51
+8F: Opplæring,51
+9C6: Delvis lukket motorbåt med innenbordsmotor,49
+9E: Lekter/Pølsetanker,48
+7H: Kranfartøy/Flytekran,48
+3D: Bil,47
+4K: Stykkgodsskip --> ubestemt,45
+0B: Animalsk/vegetabilsk olje,45
+3F: Sement,44
+8F1: Skoleskip,41
+9C13 Annet fritidsfartøy,39
+6G: Skjelltråler,39
+6B1: Fabrikkskip,39
+7F2: Redningsfartøy,38
+5K1: Fartøy med begrenset passasjerbefordring,38
+5: Passasjerskip/ferger,36
+5G: Passasjerskip/ferger --> ubestemt,34
+7C2: Oppsynsskip,33
+7E3: Arbeidsbåt for Fyrvesenet,32
+9E1: Lekter,29
+4H: Stykkgodsskip --> ubestemt,29
+2C: Tank/Bulk (O/B),29
+9C9: Kajakk,27
+5D: Jernbane,27
+6: Fiske/fangstfartøy,26
+5K2: Lege-/Skyssfartøy,25
+9C8: Kano,24
+7H1: Kranfartøy,22
+9G4: Flytende produksjonsinnretning,21
+Ukjent,20
+3C: Treforedlingsprodukter,20
+9C3: Robåt,19
+9K: Andre flytende konstruksjoner,18
+8F2: Opplæringsfartøy,18
+6K: Fiske/fangstfartøy --> ubestemt,18
+5A: Statseide passasjer-/patrulje,18
+2: Kombinertskip,18
+7B: Isbryter,17
+6C: Selfanger/Hvalfanger,17
+3I: Bulkskip --> ubestemt,17
+3: Bulkskip,17
+9I: Diverse --> ubestemt,16
+9C12: Lukket motorbåt m/utenbordsmotor,16
+7E4: Inspeksjonsfartøy,16
+4: Stykkgodsskip,15
+2F: Kjemikalie/Bulk,15
+0H: Tankskip --> ubestemt,15
+9C5: Åpen motorbåt m/innenbordsmotor,13
+9C2: Jolle,12
+9C10: Vannscooter,12
+7: Spesialskip,12
+9G3: Konstruksjons- og serviceinnretning,11
+8K1: Foringsbåt,11
+5E: Hotell/Losji/Hospital/Misjon/Utstilling,11
+7F1: Los,10
+6H: Taretråler,8
+1I: Tankskip --> ubestemt,8
+1F2: Tankskip for vann,8
+1E: Asfalt,8
+0I: Tankskip --> ubestemt,8
+8G: Bore,7
+9A: Fartøy som fører 12 eller færre passasjerer,6
+8A: Ekspedisjonsfartøy,6
+7K3: Sand-/steindumper,6
+7C5: Hjelpeskip for seismisk fartøy,6
+7A2: Bergingsfartøy,6
+2K: Kjemikalie/Asfalt,6
+9: Diverse,5
+7K1: Dykkerfartøy,5
+7I: Verksted,5
+7F3: Sjøbrannsprøyte,5
+7C4: Patruljefartøy,5
+0: Tankskip,5
+9B: Undervannsfartøy,4
+1K: Tankskip --> ubestemt,4
+0A: ---> ubestemt,4
+9G2: Boliginnretning,3
+7H2: Flytekran,3
+7G2: Sandpumpe,3
+4G: Lekterskip (LASH),3
+3K: Bulkskip --> ubestemt,3
+0D: Ammoniak,3
+,3
+7G: Mudderapparat/Sandpumpe,2
+6C1: Selfanger,2
+1F: Vin/Vann/Konsentrater,2
+1A: Septik,2
+0F: Tanklekter,2
+0E: Klor,2
+9H5: Oppdrettsanlegg,1
+9G6: Del til fast produksjonsinnretning,1
+9F: Flytedokk,1
+9C1: Husbåt/-lekter,1
+5I6: Katamaran: Last,1
+5H: Luftpute,1
+2E: Tank/Stykkgods,1
+0K: Tankskip --> ubestemt,1

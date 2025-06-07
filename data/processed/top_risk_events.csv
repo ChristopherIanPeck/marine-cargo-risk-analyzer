@@ -1,0 +1,21 @@
+UlykkeDato,FartøyNavn,FartøyType,AntallDød,AntallSkadet,Skadeomfang,skade_score,risk_score
+,,,1483.0,27460.0,,0,422900.0
+1988-05-20 03:00:00,KING HONG II,Ikke angitt,20.0,0.0,Fartøy sunket/total havari,100,2100.0
+1999-11-26 19:00:00,SLEIPNER,5I: Katamaran/Trimaran/Hydrofoil,16.0,22.0,Fartøy sunket/total havari,100,1920.0
+2004-01-19 16:30:00,ROCKNES,3A: Bulkskip --> ubestemt,18.0,0.0,Fartøy totalskadet (ikke sunket),80,1880.0
+1990-06-07 13:00:00,YUGEN MARU NO.8,Ikke angitt,11.0,0.0,Fartøy sunket/total havari,100,1200.0
+1985-11-01 00:00:00,CONCEM,9E: Lekter/Pølsetanker,10.0,0.0,Fartøy sunket/total havari,100,1100.0
+1993-10-28 00:00:00,BORDANES,6D: Fiske,9.0,0.0,Fartøy sunket/total havari,100,1000.0
+1991-11-04 19:00:00,SEA CAT,5I: Katamaran/Trimaran/Hydrofoil,2.0,75.0,Fartøy alvorlig skadet,0,950.0
+2014-11-27 22:20:00,LulanYu 61809,6F: Hekk-/Fabrikktråler,8.0,0.0,Fartøy sunket/total havari,100,900.0
+2007-04-12 17:05:00,BOURBON DOLPHIN,7D1: Forsyningsskip,8.0,0.0,Fartøy sunket/total havari,100,900.0
+1986-06-27 12:00:00,SYDFJORD,4B. Vanlig stykkgods,8.0,0.0,Fartøy sunket/total havari,100,900.0
+1998-02-27 21:00:00,ULSUND,3B: Vanlig bulk,7.0,0.0,Fartøy sunket/total havari,100,800.0
+1983-12-06 20:00:00,BELLSUND,6D: Fiske,7.0,0.0,Fartøy sunket/total havari,100,800.0
+1981-02-06 00:00:00,WESTERN,6D: Fiske,7.0,0.0,Fartøy sunket/total havari,100,800.0
+2009-07-31 06:00:00,LANGELAND,4B. Vanlig stykkgods,6.0,0.0,Fartøy sunket/total havari,100,700.0
+2000-05-29 13:00:00,NORDFRAKT,4B. Vanlig stykkgods,6.0,0.0,Fartøy sunket/total havari,100,700.0
+1993-10-31 10:00:00,OSLO LADY,1B: Olje,5.0,12.0,Fartøy totalskadet (ikke sunket),80,700.0
+1992-07-19 18:00:00,KAMILLA,4D: Palle,6.0,0.0,Fartøy sunket/total havari,100,700.0
+1983-06-09 20:00:00,MOLUND,4B. Vanlig stykkgods,6.0,0.0,Fartøy sunket/total havari,100,700.0
+1993-11-29 10:00:00,NYHAMMER,1C: LPG,6.0,9.0,Fartøy alvorlig skadet,0,690.0
