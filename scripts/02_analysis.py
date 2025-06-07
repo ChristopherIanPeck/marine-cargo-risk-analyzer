@@ -66,12 +66,52 @@ df4 = pd.read_sql(q4, conn)
 print("\n Monthly Incidents Over Time:")
 print(df4)
 
+# --- Query 5: Compute Risk Score for each incident ---
+q5 = """
+SELECT 
+    UlykkeDato,
+    FartøyNavn,
+    FartøyType,
+    AntallDød,
+    AntallSkadet,
+    Skadeomfang,
+    
+    -- Assign numeric damage score
+    CASE Skadeomfang
+        WHEN 'Fartøy sunket/total havari' THEN 100
+        WHEN 'Fartøy totalskadet (ikke sunket)' THEN 80
+        WHEN 'Vesentlige skader' THEN 60
+        WHEN 'Mindre skader' THEN 30
+        ELSE 0
+    END AS skade_score,
+    
+    -- Final risk score formula
+    (AntallDød * 100) + (AntallSkadet * 10) + 
+    CASE Skadeomfang
+        WHEN 'Fartøy sunket/total havari' THEN 100
+        WHEN 'Fartøy totalskadet (ikke sunket)' THEN 80
+        WHEN 'Vesentlige skader' THEN 60
+        WHEN 'Mindre skader' THEN 30
+        ELSE 0
+    END AS risk_score
+
+FROM incidents
+WHERE AntallDød IS NOT NULL OR AntallSkadet IS NOT NULL OR Skadeomfang IS NOT NULL
+ORDER BY risk_score DESC
+LIMIT 20
+"""
+df5 = pd.read_sql(q5, conn)
+print("\n Top Risk Events (by risk score):")
+print(df5)
+
+
 # --- Save to CSV for Power BI ---
 output_dir = os.path.join(BASE_DIR, 'data/processed')
 df1.to_csv(os.path.join(output_dir, 'accident_types.csv'), index=False)
 df2.to_csv(os.path.join(output_dir, 'ship_types.csv'), index=False)
 df3.to_csv(os.path.join(output_dir, 'deadliest_incidents.csv'), index=False)
 df4.to_csv(os.path.join(output_dir, 'monthly_trend.csv'), index=False)
+df5.to_csv(os.path.join(output_dir, 'top_risk_events.csv'), index=False)
 
 conn.close()
 print("\n Analysis complete. Results saved to /data/processed/")
