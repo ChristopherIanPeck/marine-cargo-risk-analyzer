@@ -1,4 +1,5 @@
-# marine-cargo-risk-analyzer
+from pathlib import Path
+
 project_structure = """
 /marine-cargo-risk-analyzer
 ├── data
@@ -38,7 +39,7 @@ This project analyzes real-world maritime accident data from the Norwegian Marit
 
 ---
 
-## ow to Run Locally
+## How to Run Locally
 
 ```bash
 # Clone the repository
