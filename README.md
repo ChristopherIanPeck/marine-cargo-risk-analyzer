@@ -29,7 +29,7 @@ This project analyzes real-world maritime accident data from the **Norwegian Mar
 │   └── streamlit_app.py        # Interactive dashboard app
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project overview and instructions
-
+```
 ---
 
 ## How to Run Locally
