@@ -1,10 +1,15 @@
 import streamlit as st
 import pandas as pd
+import os
+
+# Base path
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+DATA_PATH = os.path.join(BASE_DIR, 'data', 'processed')
 
 # Load data
-df_risk = pd.read_csv("data/processed/top_risk_events.csv")
-df_monthly = pd.read_csv("data/processed/monthly_trend.csv")
-df_types = pd.read_csv("data/processed/accident_types.csv")
+df_risk = pd.read_csv(os.path.join(DATA_PATH, 'top_risk_events.csv'))
+df_monthly = pd.read_csv(os.path.join(DATA_PATH, 'monthly_trend.csv'))
+df_types = pd.read_csv(os.path.join(DATA_PATH, 'accident_types.csv'))
 
 # Page title
 st.title("Marine Cargo Risk Analyzer")
