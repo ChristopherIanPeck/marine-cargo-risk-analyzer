@@ -16,7 +16,7 @@ This project analyzes real-world maritime accident data from the **Norwegian Mar
 
 ---
 
-## roject Structure
+## Project Structure
 
 ```text
 /marine-cargo-risk-analyzer
@@ -29,3 +29,58 @@ This project analyzes real-world maritime accident data from the **Norwegian Mar
 │   └── streamlit_app.py        # Interactive dashboard app
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project overview and instructions
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/ChristopherIanPeck/marine-cargo-risk-analyzer.git
+    cd marine-cargo-risk-analyzer
+    ```
+
+2. **Create and activate a virtual environment**:
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    ```
+
+3. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. **Run the ETL script**:
+    ```bash
+    python scripts/01_etl.py
+    ```
+
+5. **Run the analysis script**:
+    ```bash
+    python scripts/02_analysis.py
+    ```
+
+6. **Launch the dashboard**:
+    ```bash
+    streamlit run scripts/streamlit_app.py
+    ```
+---
+
+## Data Source
+
+**Norwegian Maritime Authority**  
+The dataset includes registered ship accidents and personal injuries from **1981–2024**, including types, consequences, and vessel metadata.  
+→ [https://www.sdir.no/](https://www.sdir.no/) (data manually downloaded from NMA archive)
+
+---
+
+##  Screenshots
+
+---
+
+## License
+
+This project is for educational and portfolio use. Attribution encouraged.
+
+---
