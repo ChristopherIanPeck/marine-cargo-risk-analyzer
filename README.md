@@ -79,7 +79,7 @@ The dataset includes registered ship accidents and personal injuries from **1981
 
 ![Screenshot of Risk Dashboard](images/risk_events.png)
 ![Screenshot of Risk Dashboard](images/monthly_trends.png)
-[Screenshot of Risk Dashboard](images/common_accident_types.png)
+![Screenshot of Risk Dashboard](images/common_accident_types.png)
 
 ---
 
