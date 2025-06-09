@@ -19,9 +19,10 @@ DATA_PATH = os.path.join(BASE_DIR, 'data', 'processed')
 df_risk = pd.read_csv(os.path.join(DATA_PATH, 'top_risk_events.csv'))
 df_monthly = pd.read_csv(os.path.join(DATA_PATH, 'monthly_trend.csv'))
 df_types = pd.read_csv(os.path.join(DATA_PATH, 'accident_types.csv'))
+df_map = pd.read_csv(os.path.join(DATA_PATH, 'incidents_with_coords.csv'))
 
 # Tabs
-tab1, tab2, tab3 = st.tabs(["Risk Events", "Monthly Trends", "Common Accident Types"])
+tab1, tab2, tab3, tab4 = st.tabs(["Risk Events", "Monthly Trends", "Common Accident Types", "Map of Incidents"])
 
 # Tab 1: Risk Events
 with tab1:
@@ -37,6 +38,11 @@ with tab2:
 with tab3:
     st.subheader("Most Frequent Types of Maritime Accidents")
     st.bar_chart(df_types.set_index('UlykkeType'))
+
+# Tab 4: Map of Incidents
+with tab4:
+    st.subheader("Map of Maritime Accidents")
+    st.map(df_map.rename(columns={"Breddegrad": "lat", "Lengdegrad": "lon"})[['lat', 'lon']])
 
 # Footer
 st.markdown("---")
