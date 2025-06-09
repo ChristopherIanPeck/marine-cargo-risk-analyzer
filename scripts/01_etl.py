@@ -24,7 +24,7 @@ df.to_csv(csv_path, index=False)
 print(f"Cleaned CSV saved at: {csv_path}")
 
 # Map Coordinates
-df_coords = df_clean[['UlykkeDato', 'FartøyNavn', 'UlykkeType', 'Breddegrad', 'Lengdegrad', 'AntallDød', 'AntallSkadet']].copy()
+df_coords = df[['UlykkeDato', 'FartøyNavn', 'UlykkeType', 'Breddegrad', 'Lengdegrad', 'AntallDød', 'AntallSkadet']].copy()
 
 # Remove rows without coordinates
 df_coords = df_coords.dropna(subset=['Breddegrad', 'Lengdegrad'])
