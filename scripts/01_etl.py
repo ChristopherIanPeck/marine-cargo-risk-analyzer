@@ -23,10 +23,19 @@ print("Columns:", df.columns.tolist())
 df.to_csv(csv_path, index=False)
 print(f"Cleaned CSV saved at: {csv_path}")
 
+# Map Coordinates
+df_coords = df_clean[['UlykkeDato', 'FartøyNavn', 'UlykkeType', 'Breddegrad', 'Lengdegrad', 'AntallDød', 'AntallSkadet']].copy()
+
+# Remove rows without coordinates
+df_coords = df_coords.dropna(subset=['Breddegrad', 'Lengdegrad'])
+
+# Save to CSV
+coords_csv_path = os.path.join(PROCESSED_PATH, 'incidents_with_coords.csv')
+df_coords.to_csv(coords_csv_path, index=False)
+print("Map data saved at:", coords_csv_path
+
 # Load into SQLite
 conn = sqlite3.connect(db_path)
 df.to_sql("incidents", conn, if_exists="replace", index=False)
 conn.close()
 print(f"SQLite DB created at: {db_path}")
-
-
