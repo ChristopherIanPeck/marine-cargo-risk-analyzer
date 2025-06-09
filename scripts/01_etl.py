@@ -32,7 +32,7 @@ df_coords = df_coords.dropna(subset=['Breddegrad', 'Lengdegrad'])
 # Save to CSV
 coords_csv_path = os.path.join(PROCESSED_PATH, 'incidents_with_coords.csv')
 df_coords.to_csv(coords_csv_path, index=False)
-print("Map data saved at:", coords_csv_path
+print("Map data saved at:", coords_csv_path)
 
 # Load into SQLite
 conn = sqlite3.connect(db_path)
